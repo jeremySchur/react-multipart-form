@@ -1,5 +1,6 @@
 {
   "name": "cozii_application",
+  "homepage": "https://jeremyschur.github.io/react-multipart-form",
   "private": true,
   "version": "0.0.0",
   "type": "module",

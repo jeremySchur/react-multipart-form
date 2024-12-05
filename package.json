@@ -1,12 +1,11 @@
 {
   "name": "cozii_application",
-  "homepage": "http://jeremyschur.github.io/react-multipart-form",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "vite build",
+    "predeploy": "vite build && echo reactform.jeremyschur.com > ./dist/CNAME",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
